@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ScriptStream</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <div class="hamburger" id="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+
+      <div class="logo-container">
+        <img src="logo.png" alt="Logo" class="logo-img" />
+      </div>
+        <nav id="nav-menu">
+          <ul>
+            <li><a href="#" data-genre="fiction">Fiction</a></li>
+            <li><a href="#" data-genre="nonfiction">Non-Fiction</a></li>
+            <li><a href="#" data-genre="fantasy">Fantasy</a></li>
+            <li><a href="#" data-genre="romance">Romance</a></li>
+            <li><a href="#" data-genre="mystery">Mystery</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  </div>
+  <div class="input-buttons-container">
+    <label for="book-input">Search for a Book:</label>
+    <input type="text" id="book-input" placeholder="Enter a book title or author" />
+    <button id="search-btn">Search</button>
+    <button id="back-btn" class="hidden">Back</button>
+  </div> 
+
+    <div id="results"></div>
+    <div class="container">
+      <div class="cards-container">
+        <div class="card">
+          <h3 class="card-title">"To Kill a Mockingbird" by Harper Lee</h3>
+          <p class="card-description">FICTION</p>
+          <img
+            src="mockingberd.jpg"
+            alt="To Kill a Mockingbird"
+            height="250px"
+            width="313.33px"
+          />
+          <a href="#" class="card-link">Read More</a>
+        </div>
+        <div class="card">
+          <h3 class="card-title">
+            "Harry Potter and the Sorcerer's Stone" by J.K. Rowling
+          </h3>
+          <p class="card-description">FANTASY</p>
+          <img
+            src="harrypotter.jpg"
+            alt="Harry Potter and the Sorcerer's Stone"
+            height="250px"
+            width="313.33px"
+          />
+          <a href="#" class="card-link">Read More</a>
+        </div>
+        <div class="card">
+          <h3 class="card-title">"Dune" by Franklin Patrick Herbert Jr.</h3>
+          <p class="card-description">SCIENCE FICTION</p>
+          <img src="dune.jpg" alt="Dune" height="250px" width="313.33px" />
+          <a href="#" class="card-link">Read More</a>
+        </div>
+        <div class="card">
+          <h3 class="card-title">
+            "All the Light We Cannot See" by Anthony Doerr
+          </h3>
+          <p class="card-description">Historical Fiction</p>
+          <img
+            src="allthelight.jpg"
+            alt="All the Light We Cannot See"
+            height="250px"
+            width="313.33px"
+          />
+          <a href="#" class="card-link">Read More</a>
+        </div>
+        <div class="card">
+          <h3 class="card-title">
+            "Sapiens: A Brief History of Humankind" by Yuval Noah Harari
+          </h3>
+          <p class="card-description">NON-FICTION</p>
+          <img
+            src="sapiens.jpg"
+            alt="Sapiens"
+            height="250px"
+            width="313.33px"
+          />
+          <a href="#" class="card-link">Read More</a>
+        </div>
+        <div class="card">
+          <h3 class="card-title">"Pride and Prejudice" by Jane Austen</h3>
+          <p class="card-description">CLASSIC LITERATURE</p>
+          <img
+            src="pride.jpg"
+            alt="Pride and Prejudice"
+            height="250px"
+            width="313.33px"
+          />
+          <a href="#" class="card-link">Read More</a>
+        </div>
+        <div class="card">
+          <h3 class="card-title">"Gone Girl" by Gillian Flynn</h3>
+          <p class="card-description">Thriller/Mystery</p>
+          <img
+            src="gonegirl.jpg"
+            alt="Gone Girl"
+            height="250px"
+            width="313.33px"
+          />
+          <a href="#" class="card-link">Read More</a>
+        </div>
+        <div class="card">
+          <h3 class="card-title">"The Hunger Games" by Suzanne Collins</h3>
+          <p class="card-description">Young Adult</p>
+          <img
+            src="hungergames.jpg"
+            alt="The Hunger Games"
+            height="250px"
+            width="313.33px"
+          />
+          <a href="#" class="card-link">Read More</a>
+        </div>
+        <div class="card">
+          <h3 class="card-title">
+            "The Spy Who Came in from the Cold" (1963) by John le Carré
+          </h3>
+          <p class="card-description">ACTIONS</p>
+          <img
+            src="thespy.jpg"
+            alt="The Spy Who Came in from the Cold"
+            height="250px"
+            width="313.33px"
+          />
+          <a href="#" class="card-link">Read More</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-info">
+          <h3>Contact Us</h3>
+          <p>
+            Grand Trunk Road, Lovely Professional University JALANDHAR, PUNJAB
+          </p>
+          <p>
+            Email:
+            <a href="mailto:contact@scriptstream.com"
+              >contact@scriptstream.com</a
+            >
+          </p>
+          <p>Phone: +1 (123) 456-7890</p>
+        </div>
+
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <a
+            href="https://facebook.com/yourprofile"
+            class="social-icon"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="facebook-icon.png" alt="Facebook" />
+          </a>
+          <a
+            href="https://twitter.com/yourprofile"
+            class="social-icon"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="twitter-icon.png" alt="Twitter" />
+          </a>
+          <a
+            href="https://instagram.com/yourprofile"
+            class="social-icon"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="instagram-icon.png" alt="Instagram" />
+          </a>
+          <a
+            href="https://linkedin.com/in/yourprofile"
+            class="social-icon"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src="linkedin-icon.png" alt="LinkedIn" />
+          </a>
+        </div>
+
+        <div class="footer-nav">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">FAQs</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-newsletter">
+          <h3>Subscribe to Our Newsletter</h3>
+          <form action="subscribe.php" method="post">
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email address"
+              required
+            />
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 ScriptStream. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
